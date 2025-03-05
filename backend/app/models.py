@@ -1,5 +1,5 @@
 from datetime import datetime
-from backend import db  # Update this import
+from ..app import db
 
 class Cycle(db.Model):
     id = db.Column(db.Integer, primary_key=True)
