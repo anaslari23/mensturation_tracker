@@ -1,0 +1,20 @@
+{
+    "info": {
+      "name": "Menstruation Tracker API",
+      "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+      {
+        "name": "Add Cycle",
+        "request": {
+          "method": "POST",
+          "header": [],
+          "body": {
+            "mode": "raw",
+            "raw": "{ \"start_date\": \"2024-07-01\", \"end_date\": \"2024-07-05\" }"
+          },
+          "url": "http://localhost:5000/api/cycles"
+        }
+      }
+    ]
+  }
