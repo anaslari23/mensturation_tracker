@@ -1,8 +1,4 @@
-flask
-flask-sqlalchemy
-flask-cors
-python-dotenv
-pandas
-scikit-learn
-tensorflow
-joblib
+flask==3.0.2
+scikit-learn==1.4.0
+numpy==1.26.4
+python-dotenv==1.0.1
